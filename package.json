@@ -1,0 +1,23 @@
+{
+  "name": "banco_a3",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.2",
+    "mongoose": "^6.1.2",
+    "neo4j-driver": "^4.4.1",
+    "pg": "^8.7.1",
+    "sequelize": "^6.12.1"
+  }
+}
